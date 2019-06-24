@@ -1,0 +1,25 @@
+
+
+$val: 10;
+.wrap{
+  font-size: $val*2px;
+  color: blue;
+  user-select: none;
+}
+
+html{
+  background: #222222;
+}
+
+ul{
+  list-style:   none;
+  li{
+    float: left;
+    width: 30px;
+    height: 20px;
+    background: #dfffff;
+    text-align: center;
+    line-height: 20px;
+    margin: 5px;
+  }
+}
